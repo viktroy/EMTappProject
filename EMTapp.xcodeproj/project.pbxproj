@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACA11D991837A8AA004693DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA11D981837A8AA004693DA /* Foundation.framework */; };
+		ACA11D9B1837A8AA004693DA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA11D9A1837A8AA004693DA /* CoreGraphics.framework */; };
+		ACA11D9D1837A8AA004693DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA11D9C1837A8AA004693DA /* UIKit.framework */; };
+		ACA11DA31837A8AA004693DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA11DA11837A8AA004693DA /* InfoPlist.strings */; };
+		ACA11DA51837A8AA004693DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA11DA41837A8AA004693DA /* main.m */; };
+		ACA11DA91837A8AA004693DA /* EMTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA11DA81837A8AA004693DA /* EMTAppDelegate.m */; };
+		ACA11DAC1837A8AA004693DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACA11DAA1837A8AA004693DA /* Main.storyboard */; };
+		ACA11DAF1837A8AA004693DA /* EMTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA11DAE1837A8AA004693DA /* EMTViewController.m */; };
+		ACA11DB11837A8AA004693DA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACA11DB01837A8AA004693DA /* Images.xcassets */; };
+		ACA11DB81837A8AA004693DA /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA11DB71837A8AA004693DA /* XCTest.framework */; };
+		ACA11DB91837A8AA004693DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA11D981837A8AA004693DA /* Foundation.framework */; };
+		ACA11DBA1837A8AB004693DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA11D9C1837A8AA004693DA /* UIKit.framework */; };
+		ACA11DC21837A8AB004693DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ACA11DC01837A8AB004693DA /* InfoPlist.strings */; };
+		ACA11DC41837A8AB004693DA /* EMTappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA11DC31837A8AB004693DA /* EMTappTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACA11DBB1837A8AB004693DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACA11D8D1837A8AA004693DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACA11D941837A8AA004693DA;
+			remoteInfo = EMTapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACA11D951837A8AA004693DA /* EMTapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMTapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA11D981837A8AA004693DA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ACA11D9A1837A8AA004693DA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ACA11D9C1837A8AA004693DA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ACA11DA01837A8AA004693DA /* EMTapp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMTapp-Info.plist"; sourceTree = "<group>"; };
+		ACA11DA21837A8AA004693DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACA11DA41837A8AA004693DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ACA11DA61837A8AA004693DA /* EMTapp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EMTapp-Prefix.pch"; sourceTree = "<group>"; };
+		ACA11DA71837A8AA004693DA /* EMTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMTAppDelegate.h; sourceTree = "<group>"; };
+		ACA11DA81837A8AA004693DA /* EMTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMTAppDelegate.m; sourceTree = "<group>"; };
+		ACA11DAB1837A8AA004693DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ACA11DAD1837A8AA004693DA /* EMTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EMTViewController.h; sourceTree = "<group>"; };
+		ACA11DAE1837A8AA004693DA /* EMTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMTViewController.m; sourceTree = "<group>"; };
+		ACA11DB01837A8AA004693DA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ACA11DB61837A8AA004693DA /* EMTappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMTappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACA11DB71837A8AA004693DA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ACA11DBF1837A8AB004693DA /* EMTappTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EMTappTests-Info.plist"; sourceTree = "<group>"; };
+		ACA11DC11837A8AB004693DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ACA11DC31837A8AB004693DA /* EMTappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EMTappTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACA11D921837A8AA004693DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA11D9B1837A8AA004693DA /* CoreGraphics.framework in Frameworks */,
+				ACA11D9D1837A8AA004693DA /* UIKit.framework in Frameworks */,
+				ACA11D991837A8AA004693DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA11DB31837A8AA004693DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA11DB81837A8AA004693DA /* XCTest.framework in Frameworks */,
+				ACA11DBA1837A8AB004693DA /* UIKit.framework in Frameworks */,
+				ACA11DB91837A8AA004693DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACA11D8C1837A8AA004693DA = {
+			isa = PBXGroup;
+			children = (
+				ACA11D9E1837A8AA004693DA /* EMTapp */,
+				ACA11DBD1837A8AB004693DA /* EMTappTests */,
+				ACA11D971837A8AA004693DA /* Frameworks */,
+				ACA11D961837A8AA004693DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACA11D961837A8AA004693DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACA11D951837A8AA004693DA /* EMTapp.app */,
+				ACA11DB61837A8AA004693DA /* EMTappTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACA11D971837A8AA004693DA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA11D981837A8AA004693DA /* Foundation.framework */,
+				ACA11D9A1837A8AA004693DA /* CoreGraphics.framework */,
+				ACA11D9C1837A8AA004693DA /* UIKit.framework */,
+				ACA11DB71837A8AA004693DA /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ACA11D9E1837A8AA004693DA /* EMTapp */ = {
+			isa = PBXGroup;
+			children = (
+				ACA11DA71837A8AA004693DA /* EMTAppDelegate.h */,
+				ACA11DA81837A8AA004693DA /* EMTAppDelegate.m */,
+				ACA11DAA1837A8AA004693DA /* Main.storyboard */,
+				ACA11DAD1837A8AA004693DA /* EMTViewController.h */,
+				ACA11DAE1837A8AA004693DA /* EMTViewController.m */,
+				ACA11DB01837A8AA004693DA /* Images.xcassets */,
+				ACA11D9F1837A8AA004693DA /* Supporting Files */,
+			);
+			path = EMTapp;
+			sourceTree = "<group>";
+		};
+		ACA11D9F1837A8AA004693DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA11DA01837A8AA004693DA /* EMTapp-Info.plist */,
+				ACA11DA11837A8AA004693DA /* InfoPlist.strings */,
+				ACA11DA41837A8AA004693DA /* main.m */,
+				ACA11DA61837A8AA004693DA /* EMTapp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ACA11DBD1837A8AB004693DA /* EMTappTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACA11DC31837A8AB004693DA /* EMTappTests.m */,
+				ACA11DBE1837A8AB004693DA /* Supporting Files */,
+			);
+			path = EMTappTests;
+			sourceTree = "<group>";
+		};
+		ACA11DBE1837A8AB004693DA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ACA11DBF1837A8AB004693DA /* EMTappTests-Info.plist */,
+				ACA11DC01837A8AB004693DA /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACA11D941837A8AA004693DA /* EMTapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA11DC71837A8AB004693DA /* Build configuration list for PBXNativeTarget "EMTapp" */;
+			buildPhases = (
+				ACA11D911837A8AA004693DA /* Sources */,
+				ACA11D921837A8AA004693DA /* Frameworks */,
+				ACA11D931837A8AA004693DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EMTapp;
+			productName = EMTapp;
+			productReference = ACA11D951837A8AA004693DA /* EMTapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACA11DB51837A8AA004693DA /* EMTappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACA11DCA1837A8AB004693DA /* Build configuration list for PBXNativeTarget "EMTappTests" */;
+			buildPhases = (
+				ACA11DB21837A8AA004693DA /* Sources */,
+				ACA11DB31837A8AA004693DA /* Frameworks */,
+				ACA11DB41837A8AA004693DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACA11DBC1837A8AB004693DA /* PBXTargetDependency */,
+			);
+			name = EMTappTests;
+			productName = EMTappTests;
+			productReference = ACA11DB61837A8AA004693DA /* EMTappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACA11D8D1837A8AA004693DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EMT;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Team Awesome";
+				TargetAttributes = {
+					ACA11DB51837A8AA004693DA = {
+						TestTargetID = ACA11D941837A8AA004693DA;
+					};
+				};
+			};
+			buildConfigurationList = ACA11D901837A8AA004693DA /* Build configuration list for PBXProject "EMTapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACA11D8C1837A8AA004693DA;
+			productRefGroup = ACA11D961837A8AA004693DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACA11D941837A8AA004693DA /* EMTapp */,
+				ACA11DB51837A8AA004693DA /* EMTappTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACA11D931837A8AA004693DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA11DB11837A8AA004693DA /* Images.xcassets in Resources */,
+				ACA11DA31837A8AA004693DA /* InfoPlist.strings in Resources */,
+				ACA11DAC1837A8AA004693DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA11DB41837A8AA004693DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA11DC21837A8AB004693DA /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACA11D911837A8AA004693DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA11DA51837A8AA004693DA /* main.m in Sources */,
+				ACA11DA91837A8AA004693DA /* EMTAppDelegate.m in Sources */,
+				ACA11DAF1837A8AA004693DA /* EMTViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACA11DB21837A8AA004693DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACA11DC41837A8AB004693DA /* EMTappTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACA11DBC1837A8AB004693DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACA11D941837A8AA004693DA /* EMTapp */;
+			targetProxy = ACA11DBB1837A8AB004693DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ACA11DA11837A8AA004693DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA11DA21837A8AA004693DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ACA11DAA1837A8AA004693DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA11DAB1837A8AA004693DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ACA11DC01837A8AB004693DA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ACA11DC11837A8AB004693DA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ACA11DC51837A8AB004693DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ACA11DC61837A8AB004693DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACA11DC81837A8AB004693DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMTapp/EMTapp-Prefix.pch";
+				INFOPLIST_FILE = "EMTapp/EMTapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ACA11DC91837A8AB004693DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMTapp/EMTapp-Prefix.pch";
+				INFOPLIST_FILE = "EMTapp/EMTapp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ACA11DCB1837A8AB004693DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMTapp.app/EMTapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMTapp/EMTapp-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EMTappTests/EMTappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ACA11DCC1837A8AB004693DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EMTapp.app/EMTapp";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EMTapp/EMTapp-Prefix.pch";
+				INFOPLIST_FILE = "EMTappTests/EMTappTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACA11D901837A8AA004693DA /* Build configuration list for PBXProject "EMTapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA11DC51837A8AB004693DA /* Debug */,
+				ACA11DC61837A8AB004693DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACA11DC71837A8AB004693DA /* Build configuration list for PBXNativeTarget "EMTapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA11DC81837A8AB004693DA /* Debug */,
+				ACA11DC91837A8AB004693DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ACA11DCA1837A8AB004693DA /* Build configuration list for PBXNativeTarget "EMTappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACA11DCB1837A8AB004693DA /* Debug */,
+				ACA11DCC1837A8AB004693DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACA11D8D1837A8AA004693DA /* Project object */;
+}
